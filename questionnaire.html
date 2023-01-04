@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Formulaire PouplyFoot</title>
+    </head>
+    <body>
+        <h1>FORMULAIRE DE POULPYFOOT</h1>
+        <fieldset>
+            <legend>INFORMATIONS PERSONNELLES</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label class="align" for="nom">Nom :</label>
+                        <input type="text" id="nom" name ="nom" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="prenom">Prénom :</label> 
+                        <input type="text" id="prenom" name ="prenom" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="sexe">Sexe :</label>
+                        <select id="sexe" name="sexe">
+                            <option value="masculin">Masculin</option>
+                            <option value="feminin">Féminin</option>
+                            <option value="non_binaire">Non binaire</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="dateNaissance">Date de naissance :</label>
+                        <input type="date" id="dateNaissance" name="dateNaissance" min="JC" max="now" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="tel">Tel :</label>
+                        <input type="tel" id="tel" name="tel" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="mail">E-mail :</label>
+                        <input type="email" id="mail" name="mail" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="adresse">Adresse :</label>
+                        <input class="champ" type="text" id="adresse" name="adresse" />
+                    </td>                            
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="cp">Code Postal :</label>
+                        <input type="text" id="cp" name="id" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="ville">Ville :</label>
+                        <input type="text" id="ville" name="ville" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="nvBaby">Niveau baby-foot :</label>
+                        <select id="nvBaby" name="nvBaby">
+                            <option value="Débutant">Débutant</option>
+                            <option value="Inter">Intermédiaire</option>
+                            <option value="Pro">Professionnel</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>
