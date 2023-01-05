@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="questionnaire.css" />
         <title>Formulaire PouplyFoot</title>
     </head>
     <body>
@@ -76,8 +77,41 @@
                             <option value="Pro">Professionnel</option>
                         </select>
                     </td>
-                </tr>
+                </tr> 
             </table>
         </fieldset>
+        <fieldset>
+            <table>
+            <legend>SIGNATURE</legend>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="pol_conf" name="pol_conf" />
+                        <label for="pol_conf">J'ai lu, compris et accepté la POLITIQUE DE CONFIDENTIALITÉ pour l'adhésion.</label>
+                        <a href="">Terms and Condition.</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Signature :</p>
+                        <div>
+                            <textarea cols="100" rows="4"></textarea>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label class="align" for="lieuSignature">Fait à :</label>
+                        <input type="text" id="lieuSignature" name="lieuSignature" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="align" for="dateSignature">Le :</label>
+                        <input type="date" id="dateSignature" name="dateSignature" min="JC" max="now" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>     
     </body>
 </html>

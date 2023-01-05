@@ -1,0 +1,32 @@
+*
+{
+	font-family: Georgia;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+h1
+{
+	font-family: Georgia;
+	font-size: 30px;
+    font-weight: bold;
+}
+
+legend
+{
+	color: darkblue;
+	font-weight: bold;
+}
+
+fieldset
+{
+	border-color: darkblue;
+	border-width: 2px;
+}
+
+.align
+{
+	display: block;
+	width: 140px;
+    float: left;
+}
